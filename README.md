@@ -29,6 +29,9 @@ todo list 실습 예제
   - Spring Boot
   - Spring JPA
   - Spring Security
+ 
+### API
+- Kakao Developers(이용 예정)
 
 ### 데이터베이스
 - Maria DB
