@@ -22,7 +22,7 @@ public class UserEntity {
     private String username;
     //OAuth, SSO 위해 Null 허용
     //controller 에서 필수값으로 지정할 것
-    private String password;
+    private String password;  //nullable 속성 true로 바꾸고 소셜 로그인이 아닌 경우에만 별도 예외처리로 필수값으로 받도록
     private String role;
     private String authProvider;
 }
